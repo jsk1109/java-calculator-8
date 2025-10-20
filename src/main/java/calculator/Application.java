@@ -32,7 +32,6 @@ public class Application {
         int sum = 0;
         for (int i = 0; i < list.length; i++) {
 
-            // 4-1. 빈 문자열("")은 0으로 처리
             if (list[i].equals("")) {
                 sum = sum + 0;
             } else {
