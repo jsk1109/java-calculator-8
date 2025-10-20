@@ -29,6 +29,7 @@ public class Application {
         } else {
             list = input.split(",|:");
         }
+        
         int sum = 0;
         for (int i = 0; i < list.length; i++) {
 
